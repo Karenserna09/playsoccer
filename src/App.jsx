@@ -235,7 +235,7 @@ function App() {
       <header className="header">
         <div>
           <span className="mini-title">TOP CLUB SOCCER</span>
-          <h1>Dashboard de Jugadores</h1>
+          <h1>Dashboard Top Soccer</h1>
           <p>
             Gestiona tus estrellas favoritas, analiza estadísticas y descubre
             talentos.
