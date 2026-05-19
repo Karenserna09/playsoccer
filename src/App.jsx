@@ -234,7 +234,7 @@ function App() {
     <div className={darkMode ? "app app--dark" : "app app--light"}>
       <header className="header">
         <div>
-          <span className="mini-title">TOP CLUB SOCCER</span>
+          <span className="mini-title">TOP CLUB </span>
           <h1>Dashboard Top Soccer</h1>
           <p>
             Gestiona tus estrellas favoritas, analiza estadísticas y descubre
