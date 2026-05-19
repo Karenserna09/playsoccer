@@ -334,7 +334,7 @@ function App() {
             className={showOnlyFavorites ? "active" : ""}
             onClick={() => setShowOnlyFavorites((v) => !v)}
           >
-            {showOnlyFavorites ? "Mostrando favoritos" : "Mostrar solo favoritos"}
+            {showOnlyFavorites ? "Mostrando favoritos" : "Ver solo  favoritos"}
           </button>
         </div>
 
