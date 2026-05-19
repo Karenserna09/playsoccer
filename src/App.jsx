@@ -308,7 +308,8 @@ function App() {
           </article>
         </section>
 
-        <div className="actions">
+         {/* mejoras visuales */}     
+        <div className="actions"> 
           <button
             className={paintMode === "pares" ? "active" : ""}
             onClick={() => setPaintMode("pares")}
