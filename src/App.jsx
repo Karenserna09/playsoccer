@@ -182,7 +182,7 @@ function App() {
     }
   }, [currentPage, totalPages]);
 
-  const stats = useMemo(() => {  // estadisticas principales
+  const stats = useMemo(() => {
     const total = filteredPlayers.length;
 
     const averageGoals =
@@ -234,8 +234,8 @@ function App() {
     <div className={darkMode ? "app app--dark" : "app app--light"}>
       <header className="header">
         <div>
-          <span className="mini-title">TOP CLUB </span>
-          <h1>Dashboard Top Soccer</h1>
+          <span className="mini-title">TOP CLUB SOCCER</span>
+          <h1>Dashboard de Jugadores</h1>
           <p>
             Gestiona tus estrellas favoritas, analiza estadísticas y descubre
             talentos.
@@ -243,7 +243,7 @@ function App() {
         </div>
 
         <button className="mode-btn" onClick={() => setDarkMode((v) => !v)}>
-          {darkMode ? "🌙 Modo noche" : "☀️ Modo claro"}
+          {darkMode ? "🌙 Modo oscuro" : "☀️ Modo claro"}
         </button>
       </header>
 
@@ -308,8 +308,7 @@ function App() {
           </article>
         </section>
 
-         {/* mejoras visuales */}     
-        <div className="actions"> 
+        <div className="actions">
           <button
             className={paintMode === "pares" ? "active" : ""}
             onClick={() => setPaintMode("pares")}
@@ -335,7 +334,7 @@ function App() {
             className={showOnlyFavorites ? "active" : ""}
             onClick={() => setShowOnlyFavorites((v) => !v)}
           >
-            {showOnlyFavorites ? "Mostrando favoritos" : "Ver solo  favoritos"}
+            {showOnlyFavorites ? "Mostrando favoritos" : "Mostrar solo favoritos"}
           </button>
         </div>
 
