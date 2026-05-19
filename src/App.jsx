@@ -182,7 +182,7 @@ function App() {
     }
   }, [currentPage, totalPages]);
 
-  const stats = useMemo(() => {
+  const stats = useMemo(() => {  // estadisticas principales
     const total = filteredPlayers.length;
 
     const averageGoals =
