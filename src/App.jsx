@@ -243,7 +243,7 @@ function App() {
         </div>
 
         <button className="mode-btn" onClick={() => setDarkMode((v) => !v)}>
-          {darkMode ? "🌙 Modo oscuro" : "☀️ Modo claro"}
+          {darkMode ? "🌙 Modo noche" : "☀️ Modo claro"}
         </button>
       </header>
 
